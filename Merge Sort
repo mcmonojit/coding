@@ -16,7 +16,8 @@ void merge(int ar[], int l, int m, int r)
   
         int k = l; 
         while (i < n1 && j < n2) { 
-            if (L[i] <= R[j]) { 
+            if (Character.compare(L[i],R[j])<=0) 
+            { 
                 ar[k] = L[i]; 
                 i++; 
             } 
