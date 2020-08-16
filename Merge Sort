@@ -41,18 +41,18 @@ void merge(int ar[], int l, int m, int r)
         } 
     } 
   
-    void sort(int arr[], int l, int r) 
+    void sort(int arr[], int left, int right) 
     { 
-        if (l < r) { 
+        if (left < right) { 
             // The mid point 
-            int m = (l + r) / 2; 
+            int mid = (left + right) / 2; 
   
             // Sort first and second half 
-            sort(arr, l, m); 
-            sort(arr, m + 1, r); 
+            sort(arr, left, mid); 
+            sort(arr, mid + 1, right); 
   
             // Merge the halves 
-            merge(arr, l, m, r); 
+            merge(arr, left, mid, right); 
         } 
     } 
     
