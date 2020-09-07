@@ -1,6 +1,5 @@
 void merge(int arr[], int l, int m, int r) 
 { 
-        // Find sizes of two subarrays to be merged 
         int n1 = m - l + 1; 
         int n2 = r - m; 
   
@@ -14,7 +13,6 @@ void merge(int arr[], int l, int m, int r)
   
         int i = 0, j = 0; 
   
-        // Initial index of merged subarry array 
         int k = l; 
         while (i < n1 && j < n2) { 
             if (L[i] <= R[j]) { 
@@ -44,14 +42,11 @@ void merge(int arr[], int l, int m, int r)
     void sort(int arr[], int l, int r) 
     { 
         if (l < r) { 
-            // Find the middle point 
             int m = (l + r) / 2; 
   
-            // Sort first and second halves 
             sort(arr, l, m); 
             sort(arr, m + 1, r); 
   
-            // Merge the sorted halves 
             merge(arr, l, m, r); 
         } 
     } 
