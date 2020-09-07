@@ -45,14 +45,11 @@ void merge(int ar[], int l, int m, int r)
     void sort(int arr[], int left, int right) 
     { 
         if (left < right) { 
-            // The mid point 
             int mid = (left + right) / 2; 
   
-            // Sort first and second half 
             sort(arr, left, mid); 
             sort(arr, mid + 1, right); 
   
-            // Merge the halves 
             merge(arr, left, mid, right); 
         } 
     } 
