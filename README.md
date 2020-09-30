@@ -8,8 +8,11 @@ Most code examples will be based on C/C++ , Python and JAVA.
 
 -[Count Frequency Of A Word Fast in An Array](Count frequency in arr FAST.java)
 
--[Basic Operations on Linked List](LINKED LIST 1.cpp)
+-[Basic Operations on Linked List in C++](LINKED LIST 1.cpp)
 
 -[Merge Sort Characters In Java](Merge Sort Char.java)
 
 -[Merge Sort Numbers In Java](Merge sort numbers.java)
+
+-[Basic Operations on Heap in C++](HEAP.cpp)
+
