@@ -1,3 +1,7 @@
+~/2020-10-01-024519$ javac longest_length_path.java 
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/home/user/tmp/ -Xms64m
+~/2020-10-01-024519$ java longest_length_path 
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/home/user/tmp/ -Xms64m
 Enter the size of the matrix (Please note that it is a square matrix): 4
 Enter element at position (0,0) : 1
 Enter element at position (0,1) : 2
@@ -18,8 +22,8 @@ Enter element at position (3,3) : 9
 >>>>End of Input>>>> 
 The inputed matrix is:
 
-1 2 3 6 
-13 14 6 7 
-5 19 0 8 
-12 11 10 9 
-Length of the longest path is 7
+[1, 2, 3, 6] 
+[13, 14, 6, 7] 
+[5, 19, 0, 8] 
+[12, 11, 10, 9] 
+The longest length path found in which the difference between each consecutive element is same is: 7
