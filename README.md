@@ -10,7 +10,7 @@ Most code examples will be based on C/C++ , Python and JAVA.
 
 -[Basic Operations on Linked List in C++](LINKED LIST 1.cpp)
 
--[Merge Sort Characters In Java](Merge Sort Char.java)
+-[Merge Sort Characters In Java](Java/Merge%20Sort%20Char.java)
 
 -[Merge Sort Numbers In Java](Merge sort numbers.java)
 
