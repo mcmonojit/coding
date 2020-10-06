@@ -14,5 +14,5 @@ Most code examples will be based on C/C++ , Python and JAVA.
 
 -[Merge Sort Numbers In Java](Merge sort numbers.java)
 
--[Basic Operations on Heap in C++](HEAP.cpp)
+-[Basic Operations on Heap in C++](CPP/HEAP.cpp)
 
