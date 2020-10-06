@@ -1,18 +1,14 @@
-# code-stock
-A library for important algorithms and concepts.
-An aunthentic Code Base in the making to create a one stop place for Data Structures and Algorithms.
-Most code examples will be based on C/C++ , Python and JAVA.
+### code-stock
+> A library for important algorithms and concepts.
 
 
--[Program name](name of the file)
-
--[Count Frequency Of A Word Fast in An Array](Count frequency in arr FAST.java)
-
--[Basic Operations on Linked List in C++](LINKED LIST 1.cpp)
+-[Count Frequency Of A Word Fast in An Array](Java/Count%20frequency%20in%20arr%20FAST.java)
 
 -[Merge Sort Characters In Java](Java/Merge%20Sort%20Char.java)
 
--[Merge Sort Numbers In Java](Merge sort numbers.java)
+-[Merge Sort Numbers In Java](Java/Merge%20sort%20numbers.java)
+
+-[Basic Operations on Linked List in C++](CPP/LINKED%20LIST 1.cpp)
 
 -[Basic Operations on Heap in C++](CPP/HEAP.cpp)
 
